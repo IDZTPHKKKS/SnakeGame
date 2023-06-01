@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Helvetica;
+    text-decoration:none;
+    text-align: center;
+    overflow-x:hidden;
+    font-family: 'VT323', monospace;
+}
+body{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    
+}
+p{
+    font-size: 20px;
+    color:rgb(0, 255, 204);
+    margin-top:2em;
+}
+.snake{
+    font-size: 70px;
+    margin-top: 2rem;
+    text-align:center;
+    color:greenyellow
+}
+#gameBoard{
+    border: 3px solid;
+    margin-top: 5em;
+}
+.score,.current-score{
+    color:greenyellow;
+    margin-top:2.5rem;
+    font-size:50px;
+}
